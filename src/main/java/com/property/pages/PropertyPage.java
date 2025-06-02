@@ -63,6 +63,35 @@ public class PropertyPage extends SetUp{
 		
 	}
 	
+	@FindBy(id="security")
+	WebElement security;
+	public void selectSecurity(String val)
+	{
+		Dd.selectByText(security, val);
+	}
+	
+	@FindBy(id="person")
+	WebElement salaried;
+	public void selectSalariedPerson(String val)
+	{
+		Dd.selectByText(salaried, val);
+	}
+	@FindBy(xpath="//button[text()=' View Quotes ']")
+	WebElement viewQuotes;
+	public void clickOnViewQuotesBtn()
+	{
+		viewQuotes.click();
+	}
+	//********************************************************
+	
+	@FindBy(xpath="//p[text()='All premiums are inclusive of GST']")
+	WebElement taxInfo;
+	public String getTaxInfo()
+	{
+		String t=taxInfo.getText();
+		return t;
+	}
+	
 	
 
 }

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-02T15:10:08 IST" name="Suite" finished-at="2025-06-02T15:10:12 IST" duration-ms="4263">
+    <groups>
+    </groups>
+    <test started-at="2025-06-02T15:10:08 IST" name="Test" finished-at="2025-06-02T15:10:12 IST" duration-ms="4263">
+      <class name="com.propery.tests.PropertyPageTest">
+        <test-method signature="validatePropertyDetails()[pri:0, instance:com.propery.tests.PropertyPageTest@52de51b6]" started-at="2025-06-02T15:10:08 IST" name="validatePropertyDetails" finished-at="2025-06-02T15:10:11 IST" duration-ms="2337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePropertyDetails -->
+        <test-method signature="validatePropertyDetailsWithAllOptionsOfAgeOfBuilding(java.lang.String)[pri:0, instance:com.propery.tests.PropertyPageTest@52de51b6]" started-at="2025-06-02T15:10:12 IST" name="validatePropertyDetailsWithAllOptionsOfAgeOfBuilding" data-provider="ageOfBuildingData" finished-at="2025-06-02T15:10:12 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0 to 5 Years]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePropertyDetailsWithAllOptionsOfAgeOfBuilding -->
+        <test-method signature="validatePropertyDetailsWithAllOptionsOfAgeOfBuilding(java.lang.String)[pri:0, instance:com.propery.tests.PropertyPageTest@52de51b6]" started-at="2025-06-02T15:10:12 IST" name="validatePropertyDetailsWithAllOptionsOfAgeOfBuilding" data-provider="ageOfBuildingData" finished-at="2025-06-02T15:10:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5 to 10 Years]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePropertyDetailsWithAllOptionsOfAgeOfBuilding -->
+        <test-method signature="validatePropertyDetailsWithAllOptionsOfAgeOfBuilding(java.lang.String)[pri:0, instance:com.propery.tests.PropertyPageTest@52de51b6]" started-at="2025-06-02T15:10:12 IST" name="validatePropertyDetailsWithAllOptionsOfAgeOfBuilding" data-provider="ageOfBuildingData" finished-at="2025-06-02T15:10:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10 to 15 Years]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePropertyDetailsWithAllOptionsOfAgeOfBuilding -->
+        <test-method signature="validatePropertyDetailsWithAllOptionsOfAgeOfBuilding(java.lang.String)[pri:0, instance:com.propery.tests.PropertyPageTest@52de51b6]" started-at="2025-06-02T15:10:12 IST" name="validatePropertyDetailsWithAllOptionsOfAgeOfBuilding" data-provider="ageOfBuildingData" finished-at="2025-06-02T15:10:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15 to 20 Years]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePropertyDetailsWithAllOptionsOfAgeOfBuilding -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.propery.tests.PropertyPageTest@52de51b6]" started-at="2025-06-02T15:10:12 IST" name="closeBrowser" finished-at="2025-06-02T15:10:12 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.propery.tests.PropertyPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
